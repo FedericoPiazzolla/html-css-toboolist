@@ -29,13 +29,14 @@ body{
   width: 70%;
   margin: 0 auto;
   background-color: white;
-  padding-left: 40px;
   
 }
-
+/* BUTTON */
 .button-section{
-  height: 40px;
+  height: 50px;
   margin-top: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
 }
 
 .task-button{
@@ -59,4 +60,50 @@ body{
   color: #c9ced3;
   margin-top: 6px;
 }
+/* BUTTON */
+
+/* LIST */
+.container-list{
+  border-top:2px solid #c9ced3;
+  padding: 15px;
+}
+
+.title{
+  font-size: 25px;
+  font-style: bold;
+}
+.list-newtask{
+  list-style-type: none;
+  font-size: 15px;
+}
+
+.check-do{
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  color: green;
+  border: 1px solid green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.editorial{
+  text-align: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: #47adf1;
+  padding:5px;
+}
+
+.q1-goals{
+
+}
+
+.recruiting{
+  
+}
+/* /LIST */
+
 /* /MAIN */
