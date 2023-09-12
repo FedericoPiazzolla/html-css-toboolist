@@ -66,15 +66,24 @@ body{
 .container-list{
   border-top:2px solid #c9ced3;
   padding: 15px;
+  text-align: left;
 }
 
 .title{
   font-size: 25px;
   font-style: bold;
 }
-.list-newtask{
+.menu{
   list-style-type: none;
   font-size: 15px;
+}
+
+.today-list{
+  padding-top: 30px;
+}
+
+.space-botlist{
+  padding-bottom: 20px;
 }
 
 .check-do{
@@ -87,6 +96,20 @@ body{
   height: 15px;
   border-radius: 50%;
   margin-right: 8px;
+  margin-left: 10px;
+}
+
+.check-none{
+  display: inline-block;
+  text-align: center;
+  font-size: 12px;
+  color: red;
+  border: 1px solid red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-left: 10px;
 }
 
 .editorial{
@@ -98,11 +121,27 @@ body{
 }
 
 .q1-goals{
-
+  text-align: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: #9c72e4;
+  padding:5px;
 }
 
 .recruiting{
-  
+  text-align: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: lightseagreen;
+  padding:5px;
+}
+
+.mobile{
+  text-align: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: orange;
+  padding:5px;
 }
 /* /LIST */
 
