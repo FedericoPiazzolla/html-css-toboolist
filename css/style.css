@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* HEADER */
+.header-logo{
+  padding-left: 20px;
+  padding-top: 15px;
+  
+}
+.logo{
+  display: inline-block;
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.logo-text{
+  vertical-align: middle;
+  display: inline-block;
+}
+/* /HEADER */
