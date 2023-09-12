@@ -71,7 +71,7 @@ body{
 
 .title{
   font-size: 25px;
-  font-style: bold;
+  font-style:bold;
 }
 .menu{
   list-style-type: none;
@@ -141,6 +141,22 @@ body{
   color: white;
   border-radius: 10px 10px 10px 10px; 
   background-color: orange;
+  padding:5px;
+}
+
+.websites{
+  text-align: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: #d863a1;
+  padding:5px;
+}
+
+.sales{
+  text-align: center;
+  color: white;
+  border-radius: 10px 10px 10px 10px; 
+  background-color: #b0c925;
   padding:5px;
 }
 /* /LIST */
