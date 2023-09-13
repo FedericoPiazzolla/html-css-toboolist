@@ -1,70 +1,77 @@
+/* RESET */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* COMMON */
 body{
+  font-family: Arial, Helvetica, sans-serif;
   background-color:rgb(220, 219, 219);
 }
+
 /* HEADER */
 .header-logo{
-  padding: 8px 18px;
+  height: 80px;
+  line-height: 80px;
   background-color: white;
+  padding: 0 20px;
   
 }
 .logo{
-  display: inline-block;
-  font-size: 40px;
   vertical-align: middle;
 }
 
 .logo-text{
   vertical-align: middle;
   display: inline-block;
+  font-size: 40px;
+  font-weight: 800;
 }
-/* /HEADER */
 
 /* MAIN */
+main{
+  padding-top: 40px;
+}
+
 .container{
   width: 70%;
   margin: 0 auto;
   background-color: white;
+  border-radius: 10px;
   
 }
+
 /* BUTTON */
 .button-section{
   height: 50px;
-  margin-top: 40px;
   padding-left: 40px;
   padding-top: 10px;
 }
 
-.task-button{
-  background-color: #47adf1;
-  border-radius: 5%;
-  border: none;
-  height: 25px;
-  width: 60px;
-  font-size: 12px;
-  color: white;
-  margin-top: 6px;
+.btn{
+  font-family: inherit;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border-color: transparent;
+  border: solid;
 }
 
-.section-button{
-  background-color: white;
-  border-radius: 5%;
-  border: 1px solid #c9ced3;
-  height: 25px;
-  width: 75px;
-  font-size: 12px;
-  color: #c9ced3;
-  margin-top: 6px;
+.btn-task{
+  background-color: #47adf1;
+  border-color: #47adf1;
+  color: white;
 }
-/* BUTTON */
+
+.btn-section{
+  border-color: gray;
+  color: gray;
+}
 
 /* LIST */
 .container-list{
-  border-top:2px solid #c9ced3;
+  border-top:4px solid #c9ced3;
   padding: 15px;
   text-align: left;
 }
@@ -76,10 +83,6 @@ body{
 .menu{
   list-style-type: none;
   font-size: 15px;
-}
-
-.today-list{
-  padding-top: 30px;
 }
 
 .space-botlist{
@@ -159,6 +162,3 @@ body{
   background-color: #b0c925;
   padding:5px;
 }
-/* /LIST */
-
-/* /MAIN */
